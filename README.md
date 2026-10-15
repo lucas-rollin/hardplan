@@ -2,9 +2,10 @@
 
 ![Hardplan screenshot](hardplan.jpg)
 
-## Description
+Hardplan is a web-based application for managing construction projects using scheduling algorithms such as the Critical Path Method (CPM) and Line of Balance (LOB). Create Gantt charts and Line of Balance visualizations for better project planning and control.
 
-Hardplan is a web-based application for managing construction projects using scheduling algorithms such as the Critical Path Method (CPM) and Line of Balance (LOB). Built with Flask, Python, and SQLite3, it lets users create Gantt charts and Line of Balance visualizations for better project planning and control.
+**Stack:** Flask, Python, SQLite3 (no ORM), Vanilla JavaScript, Plotly.js and Mermaid.js
+
 
 ## Features
 
