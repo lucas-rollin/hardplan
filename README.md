@@ -148,3 +148,7 @@ hardplan/
 
 **Design decisions:**
 - **Task and location iteration**: The algorithm calculates the start and end of each task in each location. It compares task durations with those of their predecessors to decide whether to schedule forward or backward (i.e., from the first location to the last, or vice versa).
+
+## About
+
+Built as the capstone project for [CS50x](https://cs50.harvard.edu/x/), Harvard University's Introduction to the intellectual enterprises of computer science and the art of programming
