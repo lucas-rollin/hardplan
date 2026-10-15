@@ -20,32 +20,32 @@ Hardplan is a web-based application for managing construction projects using sch
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/lucas-rollin/hardplan.git
+git clone https://github.com/lucas-rollin/hardplan.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-   cd hardplan
+cd hardplan
 ```
 
 3. Create and activate a virtual environment:
 
 ```bash
-   python3 -m venv venv
-   source venv/bin/activate    # On Windows: venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate    # On Windows: venv\Scripts\activate
 ```
 
 4. Install dependencies:
 
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 5. Run the application:
 
 ```bash
-   flask run
+flask run
 ```
 
 ## Usage
