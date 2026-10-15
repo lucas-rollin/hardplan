@@ -1,11 +1,10 @@
 # Hardplan: Construction Project Management Tool
 
-![Hardplan screenshot](hardplan.jpg)
-
 Hardplan is a web-based application for managing construction projects using scheduling algorithms such as the Critical Path Method (CPM) and Line of Balance (LOB). Create Gantt charts and Line of Balance visualizations for better project planning and control.
 
 **Stack:** Flask, Python, SQLite3 (no ORM), Vanilla JavaScript, Plotly.js and Mermaid.js
 
+![Hardplan screenshot](hardplan.jpg)
 
 ## Features
 
@@ -20,34 +19,40 @@ Hardplan is a web-based application for managing construction projects using sch
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/lucas-rollin/hardplan.git
-```
+    ```bash
+    git clone https://github.com/lucas-rollin/hardplan.git
+    ```
 
 2. Navigate to the project directory:
 
-```bash
-cd hardplan
-```
+    ```bash
+    cd hardplan
+    ```
 
 3. Create and activate a virtual environment:
 
-```bash
-python3 -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
-```
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate    # On Windows: venv\Scripts\activate
+    ```
 
 4. Install dependencies:
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-5. Run the application:
+5. Initialize the database:
 
-```bash
-flask run
-```
+    ```bash
+    python init_db.py
+    ```
+
+6. Run the application:
+
+    ```bash
+    flask run
+    ```
 
 ## Usage
 
@@ -152,4 +157,4 @@ hardplan/
 
 ## About
 
-Built as the capstone project for [CS50x](https://cs50.harvard.edu/x/), Harvard University's Introduction to the intellectual enterprises of computer science and the art of programming
+Built as the capstone project for [CS50x](https://cs50.harvard.edu/x/), Harvard's Introduction to the intellectual enterprises of computer science and the art of programming
